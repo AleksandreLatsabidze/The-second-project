@@ -1,0 +1,190 @@
+@font-face {
+  font-family: "Avenir LT Std";
+  src: url("../fonts/AvenirLTStd-Book.ttf");
+}
+@font-face {
+  font-family: "Avenir LT Std Medium";
+  src: url("../fonts/Avenir-Medium.ttf");
+}
+@font-face {
+  font-family: "Avenir LT Std Roman";
+  src: url("../fonts/AvenirLTStd-Roman.ttf");
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style: none;
+}
+.sidebar {
+  background-color: #222222;
+  width: 319px;
+  padding: 40px 30px;
+  padding-bottom: 80px;
+  float: left;
+  flex-wrap: wrap;
+}
+.right_content {
+  width: 100%;
+  background-color: #ffffff;
+  padding-left: 319px;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 53px;
+  align-items: center;
+}
+.logo h1 {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: "Avenir LT Std";
+}
+.logo span {
+  font-size: 20px;
+  opacity: 0.9;
+}
+.logo img {
+  height: 16px;
+}
+.sidbarnav li a img {
+  width: 24px;
+  margin-right: 15px;
+}
+.sidbarnav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 16px 30px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-radius: 12px;
+  font-family: "Avenir LT Std Medium";
+}
+.sidebar nav ul li {
+  display: flex;
+  align-items: center;
+}
+.follower ul li img {
+  width: 44px;
+  border-radius: 50%;
+  margin-right: 21px;
+}
+.follower ul li {
+  margin-bottom: 10px;
+}
+.follower ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  font-family: "Avenir LT Std Medium";
+}
+.follower span {
+  color: #ffffff;
+  font-size: 12px;
+  margin-bottom: 20px;
+  display: block;
+  font-family: "Avenir LT Std Roman";
+}
+.follower {
+  margin-top: 60px;
+  margin-left: 30px;
+}
+.follower button {
+  background-color: transparent;
+  border: 0;
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 10px;
+  font-family: "Avenir LT Std Roman";
+}
+.sidebar nav a:hover {
+  background-color: #ff2288;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0px;
+  padding-right: 90px;
+  padding-left: 25px;
+  border-bottom: 1px solid #e1d7d7;
+}
+.searchform input {
+  width: 446px;
+  height: 56px;
+  border: 0;
+  background-color: #f8f8f8;
+  font-size: 14px;
+  color: #111111;
+  outline: none;
+  border-radius: 12px;
+  padding: 0px 20px;
+  padding-right: 55px;
+}
+.searchform label {
+  position: relative;
+}
+.searchform button {
+  background: transparent;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: -4px;
+}
+.searchform img {
+  width: 24px;
+  height: 24px;
+}
+.profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.profile span {
+  color: #ff2288;
+  font-size: 14px;
+  margin-right: 36px;
+}
+.smallicon img {
+  width: 24px;
+  height: 24px;
+}
+.smallicon {
+  position: relative;
+  margin-right: 30px;
+}
+.smallicon i {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #ff2288;
+  display: block;
+  position: absolute;
+  top: 3px;
+  right: 2px;
+  border: 1px solid #fff;
+}
+.largeiconpofile {
+  width: 56px;
+  height: 56px;
+  border-radius: 28px;
+}
+.uploadbutton {
+  width: 129px;
+  height: 53px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 12px;
+  outline: none;
+  border: 0;
+  background-color: #ff2288;
+  margin-left: 30px;
+}
