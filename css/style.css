@@ -188,3 +188,37 @@ header {
   background-color: #ff2288;
   margin-left: 30px;
 }
+.category_section {
+  max-width: 1231px;
+  margin: 40px auto;
+}
+.category_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list span {
+  color: #222222;
+  font-size: 16px;
+  margin: 0px 8px;
+  padding: 18px 17px;
+}
+.filter img {
+  width: 24px;
+  height: 24px;
+  margin-right: 30px;
+}
+.filter span {
+  font-size: 16px;
+}
+.filter button {
+  background-color: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #d8d8d8;
+  width: 138px;
+  height: 57px;
+}
+.list span:hover {
+  background-color: #f2f2f2;
+  border-radius: 12px;
+}
