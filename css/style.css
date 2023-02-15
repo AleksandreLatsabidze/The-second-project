@@ -1,8 +1,4 @@
 @font-face {
-  font-family: "Avenir LT Std";
-  src: url("../fonts/AvenirLTStd-Book.ttf");
-}
-@font-face {
   font-family: "Avenir LT Std Medium";
   src: url("../fonts/Avenir-Medium.ttf");
 }
@@ -44,7 +40,7 @@
 .logo h1 {
   color: #ffffff;
   font-size: 24px;
-  font-family: "Avenir LT Std";
+  font-family: "Avenir LT Std Book";
 }
 .logo span {
   font-size: 20px;
@@ -317,6 +313,7 @@ header {
   display: flex;
   justify-content: space-between;
   margin-top: 27px;
+  margin-right: 50px;
 }
 .designer img {
   width: 132px;
@@ -341,13 +338,69 @@ header {
   text-align: center;
 }
 .designer button {
-  font-size: 14px;
   background-color: #f2f2f2;
+  border: 1px solid #d8d8d8;
+  font-size: 14px;
   color: #222222;
   outline: none;
-  border: 0;
   border-radius: 12px;
-  padding: 12px 30px;
+  padding: 13px 34px;
   display: block;
   margin-top: 15px;
+  font-family: "Avenir LT Std Book";
+}
+.otherprofile {
+  padding-top: 25px;
+}
+#userfollowing {
+  border: 0;
+  background-color: #d8d8d8;
+}
+#userfollowings {
+  border: 0;
+  background-color: #d8d8d8;
+}
+.footer_container {
+  display: flex;
+  max-width: 920px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
+.footer_container a {
+  color: #222222;
+  font-size: 16px;
+  line-height: 35px;
+  text-decoration: none;
+  font-family: "Avenir LT Std Book";
+}
+.fordesigners_list {
+  width: 45%;
+}
+.hiredesigners_list {
+  width: 45%;
+}
+.company_list {
+  width: 45%;
+}
+.direct_list {
+  width: 45%;
+}
+.footer_title {
+  color: black;
+  display: flex;
+  margin-bottom: 31px;
+  font-family: "Avenir LT Std Medium";
+}
+.lastfooter {
+  max-width: 920px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+.footer_icon img {
+  width: 24px;
+  height: 24px;
 }
