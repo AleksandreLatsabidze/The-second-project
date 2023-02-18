@@ -1,1 +1,62 @@
-@media only screen and (max-width: 1024px);
+@media only screen and (max-width: 1024px) {
+  header {
+    padding-right: 25px;
+  }
+  .searchform {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .searchform input {
+    width: 100%;
+  }
+  .profile {
+    margin: 0 auto;
+  }
+  .list span {
+    display: inline-block;
+    padding: 5px 8px;
+    margin: 0;
+  }
+  .list {
+    width: 100%;
+    text-align: center;
+  }
+  .filter {
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .filter button {
+    width: 110px;
+    height: 45px;
+  }
+  .filter img {
+    width: 20px;
+    height: initial;
+  }
+  .grid_img span {
+    width: 100%;
+  }
+  .section_users {
+    gap: 30px;
+  }
+
+  .footer_container div {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  .footer_title {
+    margin-bottom: 15px;
+  }
+  .footer_text {
+    margin-right: 15px;
+  }
+  .section_imgs .grid_img {
+    width: 33.333%;
+  }
+  .picturesection img {
+    border-radius: 15px;
+  }
+  .section_imgs img {
+    height: 190px;
+  }
+}

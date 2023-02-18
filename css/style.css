@@ -228,24 +228,28 @@ header {
   border-radius: 12px;
 }
 .section_imgs img {
-  height: 210px;
+  height: 200px;
   object-fit: cover;
+  width: 100%;
 }
 .section_imgs {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 285px);
   margin: 0px auto;
-  max-width: 1231px;
+  max-width: 1255px;
   position: relative;
-  row-gap: 20px;
-  column-gap: 20px;
+
   padding: 0 15px;
+}
+.section_imgs .grid_img {
+  float: left;
+  width: 25%;
+  padding: 0 15px;
+  margin-bottom: 20px;
 }
 .grid_img span {
   max-height: 49px;
+  height: 49px;
   overflow: hidden;
   display: block;
-  width: 289px;
   margin-top: 8px;
   font-family: "Avenir LT Std Medium";
 }
@@ -299,8 +303,9 @@ header {
   max-width: 1231px;
 }
 .followers {
-  max-width: 1231px;
+  max-width: 1261px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 .follower_title h1 {
   font-size: 32px;
@@ -318,7 +323,6 @@ header {
   justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 27px;
-  margin-right: 50px;
 }
 .designer img {
   width: 132px;
