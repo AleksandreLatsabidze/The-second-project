@@ -60,3 +60,88 @@
     height: 190px;
   }
 }
+@media only screen and (max-width: 375px) {
+  .logo img {
+    margin-left: 5px;
+  }
+  .logo {
+    display: inline-flex;
+    margin: 0px -25px;
+  }
+  .logo img {
+    height: 10px;
+  }
+  .logo h1 {
+    font-size: 16px;
+  }
+  .sidbarnav ul {
+    margin-left: -50px;
+  }
+  .sidebar {
+    width: 140px;
+  }
+  .sidbarnav a {
+    font-size: 13px;
+  }
+  .follower {
+    margin-left: -25px;
+  }
+  .right_content {
+    padding-left: 0px;
+  }
+  .searchform input {
+    height: 40px;
+  }
+  header {
+    padding-left: 0px;
+  }
+  .smallicon {
+    display: none;
+  }
+  .profile {
+    margin-right: 0px;
+  }
+  .profile span {
+    margin-right: -6px;
+  }
+  .uploadbutton {
+    width: 75px;
+    height: 35px;
+  }
+  .list span {
+    padding: 2px 5px;
+  }
+  .filter button {
+    width: 95px;
+    height: 35px;
+  }
+  .section_imgs .grid_img {
+    width: 31%;
+  }
+  .section_imgs img {
+    height: 70px;
+  }
+  .moreinfobt button {
+    width: 260px;
+    height: 40px;
+  }
+  .followers {
+    margin: -40px auto;
+  }
+  .follower_title h1 {
+    font-size: 25px;
+  }
+  .designer img {
+    width: 100px;
+    height: 100px;
+  }
+  .section_users {
+    gap: 5px;
+  }
+  footer {
+    margin-top: 25px;
+  }
+  .footer_lists {
+    margin-left: 15px;
+  }
+}
