@@ -426,9 +426,10 @@ header {
   padding: 6px 8px;
 }
 .section_info {
-  max-width: 1231px;
+  max-width: 1250px;
   margin: 0 auto;
   margin-top: 35px;
+  padding: 0 15px;
 }
 .section_info table {
   text-align: left;
