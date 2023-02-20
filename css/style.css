@@ -206,6 +206,9 @@ header {
   padding: 18px 17px;
   font-family: "Avenir LT Std Book";
 }
+.list a {
+  text-decoration: none;
+}
 .filter img {
   width: 24px;
   height: 24px;

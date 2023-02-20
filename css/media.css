@@ -78,7 +78,7 @@
     margin-left: -50px;
   }
   .sidebar {
-    width: 140px;
+    width: 37%;
   }
   .sidbarnav a {
     font-size: 13px;
@@ -143,5 +143,22 @@
   }
   .footer_lists {
     margin-left: 15px;
+  }
+  .profile span {
+    margin-left: 10px;
+  }
+  .tabletd {
+    display: none;
+  }
+  .section_info table {
+    width: 63%;
+    display: inline-block;
+  }
+  .section_info table td {
+    font-size: 15px;
+    padding: 0.5px 15px;
+  }
+  .lastfooter {
+    margin: -70px auto;
   }
 }
